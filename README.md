@@ -1,7 +1,7 @@
 # mask_detector
 
 in this project i use mediapipe library to detect and locate faces from video or single image,
-then classifiey all faces into two classes (mask,no mask), and put rectangle at these classified faces.
+then classifiey all faces into two classes (mask,no mask), and put rectangle around these classified faces.
 i create my own dataset , train model with this custom dataset in train.ipynb and save the model to reuse it
 then load the model in detect.py to classifiey faces  
 
